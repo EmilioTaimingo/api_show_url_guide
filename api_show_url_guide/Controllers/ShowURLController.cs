@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace api_show_url_guide.Controllers
 {
-    public class MuestraURLController : ApiController
+    public class ShowURLController : ApiController
     {
         [HttpPost]
         public Reply Muestra([FromBody] Response guia_paquete)

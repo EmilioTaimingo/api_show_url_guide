@@ -7,7 +7,7 @@ namespace api_show_url_guide.Models
 {
     public class Response
     {
-        public string Num_Guia { get; set; }
-        public string Cli_Identificador { get; set; }
+        public string Guide_Number { get; set; }
+        public string Recipient_Identifier { get; set; }
     }
 }

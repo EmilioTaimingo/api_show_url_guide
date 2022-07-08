@@ -22,8 +22,8 @@ namespace api_show_url_guide.Commands
                 MySqlCommand cmd = new MySqlCommand("muestra_guiaURL_sp", conexion);
 
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@guiguia", oDatos.Num_Guia);
-                cmd.Parameters.AddWithValue("@cliidentificador", oDatos.Cli_Identificador);
+                cmd.Parameters.AddWithValue("@guiguia", oDatos.Guide_Number);
+                cmd.Parameters.AddWithValue("@cliidentificador", oDatos.Recipient_Identifier);
                 try
                 {
 
